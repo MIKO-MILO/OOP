@@ -49,7 +49,7 @@ $base_url = "http://localhost/PeLAJARAN/PAK%20MAHMUDI/OOP";
 </style>
 
 <div class="navbar">
-    <div class="nav-title">📘 Sistem Data Sekolah</div>
+    <div class="nav-title">Sistem Data Sekolah</div>
     <div class="nav-links">
         <a href="<?= $base_url ?>/index.php" class="<?= strpos($current, '/index.php') !== false ? 'active' : '' ?>">Home</a>
         <a href="<?= $base_url ?>/kelas/index.php" class="<?= strpos($current, '/kelas/') !== false ? 'active' : '' ?>">Kelas</a>
